@@ -19,8 +19,7 @@ function TodoForm({addToDo}) {
     function handleSubmit(e){
         e.preventDefault(); 
         if(todo.task.trim()){
-            addToDo({...todo, id: "hello", task: "hello", completed: true)
-    
+            addToDo({...todo, id: "hello", task: "hello", completed: true);
         }
     }
     }
